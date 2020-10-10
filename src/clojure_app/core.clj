@@ -13,7 +13,7 @@
       (let [names (map (fn [item] (:name item)) data)] names)
       )
       (println "Only names: " (get-names))
-      
+      ;;not working
       (defn is-age? [age number] 
         (if(< num age) true false))
 
